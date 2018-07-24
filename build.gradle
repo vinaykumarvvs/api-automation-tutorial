@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+}
+
+group 'com.testvagrant'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+//    testCompile group: 'junit', name: 'junit', version: '4.12'
+    testCompile group: 'org.testng', name: 'testng', version: '6.14.3'
+    testCompile 'io.rest-assured:rest-assured:3.0.6'
+    testCompile group: 'org.hamcrest', name: 'java-hamcrest', version: '2.0.0.0'
+}
+
+task runTests(type: Test) {
+    useTestNG {
+        useDefaultListeners = false
+    }
+}
