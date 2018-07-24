@@ -5,11 +5,6 @@
 * Having a basic knowledge on RESTAssured Library, if not
 click [here](http://rest-assured.io/)
 
-This Chapter consists three tests
-1. **Test-1:** Send a GET Request of an API and validate the body
-2. **Test-2:** Send a GET Request of an API and retrieve the data from body
-3. **Test-3:** Send a GET Request of an API and store the Response
-
 #### Getting Started
 First let us quickly understand the following things
 1. **What is DSL?**
@@ -28,7 +23,7 @@ but you often use multiple DSLs in a system mainly written in a general purpose 
 4. extract()
 
 And other <b>Keywords</b> are used following to the `given|when|then|extract`. Click [here](https://github.com/rest-assured/rest-assured/wiki/usage)
-to check the few more keywords.
+to check few more keywords.
 #### Sequence of creating a Request and receiving a Response
 1. `given()` - These are the configs that we can define following to the current keyword
     * QueryParameters
@@ -40,6 +35,11 @@ to check the few more keywords.
 4. `extract()` - To retrieve a single value from JSON
 
 ![](https://i.imgur.com/8QMTKCY.png)
+
+This Chapter consists three tests
+1. **Test-1:** Send a GET Request of an API and validate the body
+2. **Test-2:** Send a GET Request of an API and retrieve the data from body
+3. **Test-3:** Send a GET Request of an API and store the Response
 
 #### **Test-1:** Send a GET Request of an API and validate the body
 In this test we are going to Send a Request and Validate the JSON body
@@ -55,6 +55,8 @@ In this test we are going to Send a Request and retrieve some data from the Resp
 #### **Test-3:** Send a GET Request of an API and store the Response
 Previously we have seen how to retrieve a single value. Now in this test we are going to store entire Response
 1. `Response response = given()...` - This way we can store the Response
+
+    ![](https://i.imgur.com/t35qmpT.png)
 2. `response.getStatusCode` - Will return the StatusCode
 3. `response.getBody().asString()` - Returns entire JSON Body in a String format
 
