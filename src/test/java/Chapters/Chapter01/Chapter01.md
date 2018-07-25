@@ -36,6 +36,9 @@ to check few more keywords.
 
 ![](https://i.imgur.com/8QMTKCY.png)
 
+**Note:** Before getting into tests, we need to add the dependencies in Gradle File. Click here to check the
+[<b>Gradle Config</b>](https://github.com/vinaykumarvvs/api-automation-tutorial/tree/master/src/test/java/Chapters/Chapter01/GradleConfig.md)
+
 This Chapter consists three tests
 1. **Test-1:** Send a GET Request of an API and validate the body
 2. **Test-2:** Send a GET Request of an API and retrieve the data from body
