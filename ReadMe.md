@@ -20,13 +20,18 @@ Setup your machine.
 3. Now click on ```auto import -> Ok``` wait until the IntelliJ downloads all the dependencies
 
 #### Running tests
+``Note:`` For 2nd & 3rd steps, you need to follow this way ```OpenTerminal/CMD -> cd <change-to-project-location>```
 1. You can run the tests directly from the IntelliJ, by right clicking and **Run test**..
-2. For Linux/Mac users: ```gradle clean build runTests``` (command-line)
-3. For Windows users: ```gradlew clean build runTests``` (command-line)
+2. For Linux/Mac users: ```gradle clean build runTests```
+3. For Windows users: ```gradlew clean build runTests```
 
 ---
 
-### Tutorial Begins
+## Tutorial Begins
+
+### PetStore - Swagger
+Through out this tutorial I am going to use [PetStore-Swagger](http://petstore.swagger.io/). <b>PetStore - Swagger</b> is the open source project 
+which has very good documentation with various number of examples.
 
 #### [Chapter 1](https://github.com/vinaykumarvvs/api-automation-tutorial/tree/master/src/test/java/Chapters/Chapter01/Chapter01.md)
 1. **Test-1:** Send a GET Request of an API and validate the body
