@@ -11,13 +11,12 @@ After adding the dependencies your block should look like
 
 ![](https://i.imgur.com/8IsMIdQ.png)
 
-#### Create a task for running tests from command line
+#### Create a task for running tests from the command line
 * Add the following lines of code in your `build.gradle` file
-* This lines will make you to execute all the tests present in the project.
+* This lines will make you execute all the tests present in the project.
 
 ![](https://i.imgur.com/OPxH4hv.png)
 
-#### Total gradle file should look like
+#### Now total Gradle file should look like
 
 ![](https://i.imgur.com/LvkwUPW.png)
-
