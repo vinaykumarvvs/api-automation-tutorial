@@ -34,6 +34,11 @@ Through out this tutorial I am going to use [PetStore-Swagger](http://petstore.s
 which has very good documentation with various number of examples.
 
 #### [Chapter 1](https://github.com/vinaykumarvvs/api-automation-tutorial/tree/master/src/test/java/Chapters/Chapter01/Chapter01.md)
-1. **Test-1:** Send a GET Request of an API and validate the body
-2. **Test-2:** Send a GET Request of an API and retrieve the data from body
-3. **Test-3:** Send a GET Request of an API and store the Response
+1. **[Test-1](https://github.com/vinaykumarvvs/api-automation-tutorial/tree/master/src/test/java/Chapters/Chapter01/FirstChapterTests.java):** Send a get Request of an API and validate the body
+2. **[Test-2](https://github.com/vinaykumarvvs/api-automation-tutorial/tree/master/src/test/java/Chapters/Chapter01/FirstChapterTests.java):** Send a get Request of an API by passing the Query Parameters in the URL itself
+3. **[Test-3](https://github.com/vinaykumarvvs/api-automation-tutorial/tree/master/src/test/java/Chapters/Chapter01/FirstChapterTests.java):** Send a get Request of an API and retrieve the data from body
+4. **[Test-4](https://github.com/vinaykumarvvs/api-automation-tutorial/tree/master/src/test/java/Chapters/Chapter01/FirstChapterTests.java):** Send a get Request of an API and store the Response
+
+#### [Chapter 2](https://github.com/vinaykumarvvs/api-automation-tutorial/tree/master/src/test/java/Chapters/Chapter02/Chapter02.md)
+1. **[Test-1](https://github.com/vinaykumarvvs/api-automation-tutorial/tree/master/src/test/java/Chapters/Chapter02/SecondChapterTests.java):** Optimized way to send the Request and receive the Response
+
