@@ -14,7 +14,7 @@ Here are some listing, we have learned till now
 In this chapter, we are going to create the POST Request using <b>Entity-Builder</b> pattern and validate the 
 Response StatusCode. Here is the quick reference for [Why & What is Entity-Builder-Pattern](https://dzone.com/articles/the-builder-pattern-for-test-classes)
 
-#### **For a given JSON**
+#### **Request JSON**
 Here is the JSON that we are going to use for <b>Creating a Pet</b>. 
 This JSON reference I have taken it from [PetStore-Swagger](http://petstore.swagger.io/).
 

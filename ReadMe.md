@@ -43,3 +43,6 @@ Throughout this tutorial, I am going to use [PetStore-Swagger](http://petstore.s
 
 #### [Chapter 3](https://github.com/vinaykumarvvs/api-automation-tutorial/tree/master/src/test/java/Chapters/Chapter03/Chapter03.md)
 1. **[Test-1](https://github.com/vinaykumarvvs/api-automation-tutorial/tree/master/src/test/java/Chapters/Chapter03/ThirdChapterTests.java):** Creating the POST Request and validating the Response Code
+
+#### [Chapter 4](https://github.com/vinaykumarvvs/api-automation-tutorial/tree/master/src/test/java/Chapters/Chapter04/Chapter04.md)
+1. **[Test-1](https://github.com/vinaykumarvvs/api-automation-tutorial/tree/master/src/test/java/Chapters/Chapter04/FourthChapterTests.java):** Creating the POST Request and validating the RequestBody & ResponseBody
