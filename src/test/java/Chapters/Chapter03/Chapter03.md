@@ -34,6 +34,10 @@ object into a String. Your final dependency block should look like
 
 ![](https://i.imgur.com/5TxF64T.png)
 
+#### **Introducing RequestHelper**
+* [RequestHelper](https://github.com/vinaykumarvvs/api-automation-tutorial/tree/master/src/test/java/utils/RequestHelper.java) - helps us to convert the Java object into a String. 
+It takes input as an object and returns the String.
+
 #### **Tests**
 This Chapter consists only one test
 1. **Test-1:** Creating the POST Request and validating the Response Code
