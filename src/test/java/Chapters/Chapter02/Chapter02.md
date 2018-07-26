@@ -21,11 +21,12 @@ In order to optimize the code, we have introduced the following Java Files.
 
 ```After introducing the above files we can clearly say that our project is loosely coupled and easily maintainable```.
 
-This Chapter consists only tests
+#### **Tests**
+This Chapter consists only one test
 1. **Test-1:** Optimized way to send the Request and receive the Response
 
 #### Summary
 These are the following things we have learned from [Chapter 1](https://github.com/vinaykumarvvs/api-automation-tutorial/tree/master/src/test/java/Chapters/Chapter01/Chapter01.md) 
 and [Chapter 2](https://github.com/vinaykumarvvs/api-automation-tutorial/tree/master/src/test/java/Chapters/Chapter02/Chapter02.md) 
 1. How to send the Request and receive the Response.
-2. How to separate the code based on their functionality `Single Responsibility Principle`.
+2. How to segregate the code based on their functionality by following `Single Responsibility Principle`.

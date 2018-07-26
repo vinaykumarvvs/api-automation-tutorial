@@ -10,4 +10,12 @@ public class ResourceHelper {
         return given().when().get(url);
     }
 
+    public static Response create(String url, String json) {
+        return given()
+                .header("Content-Type", "application/json")
+                .when()
+                .body(json)
+                .post(url);
+    }
+
 }
