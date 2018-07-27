@@ -48,4 +48,4 @@ Throughout this tutorial, I am going to use [PetStore-Swagger](http://petstore.s
 1. **[Test-1](https://github.com/vinaykumarvvs/api-automation-tutorial/tree/master/src/test/java/Chapters/Chapter04/FourthChapterTests.java):** Creating the POST Request and validating the RequestBody & ResponseBody
 
 #### [Chapter 5](https://github.com/vinaykumarvvs/api-automation-tutorial/tree/master/src/test/java/Chapters/Chapter05/Chapter05.md) :: Chaining the API's
-1. **[Test-1](https://github.com/vinaykumarvvs/api-automation-tutorial/tree/master/src/test/java/Chapters/Chapter05/FifthChapterTests.java)** Chaining Requests and validate Response Body
+1. **[Test-1](https://github.com/vinaykumarvvs/api-automation-tutorial/tree/master/src/test/java/Chapters/Chapter05/FifthChapterTests.java):** Chaining Requests and validate Response Body
