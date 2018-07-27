@@ -20,7 +20,7 @@ import java.io.IOException;
 public class FifthChapterTests extends BaseTest {
 
     @Test
-    public void createPetAndVerifyTheCreation() throws IOException {
+    public void createPetAndVerifyTheCreationUsingGETMethod() throws IOException {
 
         // Creating the Category Object
         Category category = new CategoryBuilder()
