@@ -1,8 +1,8 @@
 ## API Automation Tutorial
 
-In this tutorial you are going to learn <b>How to Automate the API Tests</b> using <b>RESTAssured Library</b>
+In this tutorial you are going to learn <b>How to Automate the REST API's in Java</b> using <b>RESTAssured Library</b>
 
-This project contains automated API tests explained step by step. The tech stack used for this project are:
+The tech stack used for this tutorial are:
 1. **JAVA** as the programming language for writing test code
 2. **TestNg** as the framework
 3. **Gradle** as the build tool
@@ -32,20 +32,20 @@ Setup your machine.
 ### PetStore - Swagger
 Throughout this tutorial, I am going to use [PetStore-Swagger](http://petstore.swagger.io/). <b>PetStore - Swagger</b> is the open source project which has very good documentation with the various number of examples.
 
-#### [Chapter 1](https://github.com/vinaykumarvvs/api-automation-tutorial/tree/master/src/test/java/Chapters/Chapter01/Chapter01.md)
+#### [Chapter 1](https://github.com/vinaykumarvvs/api-automation-tutorial/tree/master/src/test/java/Chapters/Chapter01/Chapter01.md) :: Send a GET Request and validate the Response
 1. **[Test-1](https://github.com/vinaykumarvvs/api-automation-tutorial/tree/master/src/test/java/Chapters/Chapter01/FirstChapterTests.java):** Send a get Request of an API and validate the body
 2. **[Test-2](https://github.com/vinaykumarvvs/api-automation-tutorial/tree/master/src/test/java/Chapters/Chapter01/FirstChapterTests.java):** Send a get Request of an API by passing the Query Parameters in the URL itself
 3. **[Test-3](https://github.com/vinaykumarvvs/api-automation-tutorial/tree/master/src/test/java/Chapters/Chapter01/FirstChapterTests.java):** Send a get Request of an API and retrieve the data from the body
 4. **[Test-4](https://github.com/vinaykumarvvs/api-automation-tutorial/tree/master/src/test/java/Chapters/Chapter01/FirstChapterTests.java):** Send a get Request of an API and store the Response
 
-#### [Chapter 2](https://github.com/vinaykumarvvs/api-automation-tutorial/tree/master/src/test/java/Chapters/Chapter02/Chapter02.md)
-1. **[Test-1](https://github.com/vinaykumarvvs/api-automation-tutorial/tree/master/src/test/java/Chapters/Chapter02/SecondChapterTests.java):** Optimized way to send the Request and receive the Response
+#### [Chapter 2](https://github.com/vinaykumarvvs/api-automation-tutorial/tree/master/src/test/java/Chapters/Chapter02/Chapter02.md) :: Abstracting the code
+1. **[Test-1](https://github.com/vinaykumarvvs/api-automation-tutorial/tree/master/src/test/java/Chapters/Chapter02/SecondChapterTests.java):** Abstracting the Requests for maintenance and readability
 
-#### [Chapter 3](https://github.com/vinaykumarvvs/api-automation-tutorial/tree/master/src/test/java/Chapters/Chapter03/Chapter03.md)
+#### [Chapter 3](https://github.com/vinaykumarvvs/api-automation-tutorial/tree/master/src/test/java/Chapters/Chapter03/Chapter03.md) :: POST Request creation and validating the Response Code
 1. **[Test-1](https://github.com/vinaykumarvvs/api-automation-tutorial/tree/master/src/test/java/Chapters/Chapter03/ThirdChapterTests.java):** Creating the POST Request and validating the Response Code
 
-#### [Chapter 4](https://github.com/vinaykumarvvs/api-automation-tutorial/tree/master/src/test/java/Chapters/Chapter04/Chapter04.md)
+#### [Chapter 4](https://github.com/vinaykumarvvs/api-automation-tutorial/tree/master/src/test/java/Chapters/Chapter04/Chapter04.md) :: POST Request creation and validating RequestBody & ResponseBody
 1. **[Test-1](https://github.com/vinaykumarvvs/api-automation-tutorial/tree/master/src/test/java/Chapters/Chapter04/FourthChapterTests.java):** Creating the POST Request and validating the RequestBody & ResponseBody
 
-#### [Chapter 5](https://github.com/vinaykumarvvs/api-automation-tutorial/tree/master/src/test/java/Chapters/Chapter05/Chapter05.md)
-1. **[Test-1](https://github.com/vinaykumarvvs/api-automation-tutorial/tree/master/src/test/java/Chapters/Chapter05/FifthChapterTests.java)** Creating a Pet using POST method and verifying it by using GET method
+#### [Chapter 5](https://github.com/vinaykumarvvs/api-automation-tutorial/tree/master/src/test/java/Chapters/Chapter05/Chapter05.md) :: Chaining the API's
+1. **[Test-1](https://github.com/vinaykumarvvs/api-automation-tutorial/tree/master/src/test/java/Chapters/Chapter05/FifthChapterTests.java)** Chaining Requests and validate Response Body

@@ -8,9 +8,9 @@ import utils.ResourceHelper;
 
 public class SecondChapterTests extends BaseTest {
 
-    // Optimized way to send a Request and receive the Response
+    // Abstracting the code for more readability and maintainability
     @Test
-    public void optimizedWayToSendReqAndReceiveResponse() {
+    public void abstractingTheRequestForMaintenanceAndReadability() {
         Response response = ResourceHelper.get(propertiesReader.getEndPointUrl("get_animals"));
         Assert.assertEquals(response.getStatusCode(), 200);
     }

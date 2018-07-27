@@ -5,7 +5,7 @@
 * If you are reading this line then you are good to go. Let's get started with the <b>Third Chapter</b>
 
 #### **Quick Recap**
-Here are some listing, we have learned till now
+Here are some listings, we have learned till now
 1. How to send a GET Request
 2. How to validate the Response 
 3. And also we have seen, How to segregate the things in order to maintain `Single Responsibility Principle`.
@@ -44,14 +44,14 @@ This Chapter consists only one test
 
    In this test, we are doing the following actions:<br/>
    
-   a. Creating an object for <b>Category</b> with some data <br/>
-   b. Creating an object for <b>Tags</b> with some data and inserting in the TagsList<br/>
-   c. Now we are creating the main object <b>CreatePetRequest</b><br/>
-   d. After creating the all objects, we are converting the object into String and sending it to the server<br/>
-   e. Validating the Response StatusCode<br/>
+   a. Create an object for <b>Category</b> with some data <br/>
+   b. Create an object for <b>Tags</b> with some data and inserting in the TagsList<br/>
+   c. Now create a main object <b>CreatePetRequest</b><br/>
+   d. Then serialize the object into JSON String and sending it in the body<br/>
+   e. Validate the Response Status-Code<br/>
    
 #### **Summary**
-These are the things that we have learned till now  
+Things we have learned so far:
 1. How to send the GET Request and receive the Response.
 2. How to segregate the code based on their functionality by following `Single Responsibility Principle`.
 3. How to create and send the POST Request using `Entity-Builder` pattern.

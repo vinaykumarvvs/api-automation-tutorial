@@ -1,6 +1,6 @@
 ## Gradle Configuration
 
-This file is used to download all the dependencies that are required for this tutorial
+``Gradle is a build tool used to manage all the dependencies``
 
 #### Add the following Dependencies in `build.gradle`
 1. `testCompile group: 'org.testng', name: 'testng', version: '6.14.3'` - For TestNG
@@ -13,10 +13,10 @@ After adding the dependencies your block should look like
 
 #### Create a task for running tests from the command line
 * Add the following lines of code in your `build.gradle` file
-* This lines will make you execute all the tests present in the project.
+* This will make you execute all the tests present in the project from command line with `@Test` Annotation.
 
 ![](https://i.imgur.com/OPxH4hv.png)
 
-#### Now total Gradle file should look like
+#### Now, the Gradle file should be:
 
 ![](https://i.imgur.com/LvkwUPW.png)
