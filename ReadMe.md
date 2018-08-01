@@ -16,7 +16,7 @@ Setup your machine.
 
 #### Cloning & Importing the Project
 1. Clone the project from ```git clone https://github.com/vinaykumarvvs/api-automation-tutorial.git```
-2. Import the project (API-automation-tutorial) in IntelliJ ```File -> New -> Project from Existing Sources -> Browse Project Location -> build.gradle```
+2. Import the project (api-automation-tutorial) in IntelliJ ```File -> New -> Project from Existing Sources -> Browse Project Location -> build.gradle```
 3. Now click on ```auto import -> Ok``` wait until the IntelliJ downloads all the dependencies
 
 #### Running tests
