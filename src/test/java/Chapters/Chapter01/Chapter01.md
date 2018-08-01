@@ -1,7 +1,7 @@
 ## Chapter 1
 
 #### Pre-requisites
-* Basic Understanding of Java, REST API's & CRUD Operations
+* Basic Understanding of Java, [REST API's](https://www.sitepoint.com/developers-rest-api/) and brief idea on [JSON](https://developers.squarespace.com/what-is-json/)
 * Having a basic knowledge on RESTAssured Library, if not
 click [here](http://rest-assured.io/)
 
