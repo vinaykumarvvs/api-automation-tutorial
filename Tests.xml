@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="classes" thread-count="5">
+    <test name="All Chapter Tests">
+        <classes>
+            <class name="Chapters.Chapter01.FirstChapterTests"/>
+            <class name="Chapters.Chapter02.SecondChapterTests"/>
+            <class name="Chapters.Chapter03.ThirdChapterTests"/>
+            <class name="Chapters.Chapter04.FourthChapterTests"/>
+            <class name="Chapters.Chapter05.FifthChapterTests"/>
+        </classes>
+    </test>
+</suite>

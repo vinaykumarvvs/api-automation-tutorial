@@ -22,8 +22,8 @@ Setup your machine.
 #### Running tests
 ``Note:`` For 2nd & 3rd steps, you need to follow this way ```OpenTerminal/CMD -> cd <change-to-project-location>```
 1. You can run the tests directly from the IntelliJ, by right-clicking and **Run test**.
-2. For Linux/Mac users: ```gradle clean build runTests```
-3. For Windows users: ```gradlew clean build runTests```
+2. For Linux/Mac users: ```gradle clean build runTests``` or ```gradle clean build test```
+3. For Windows users: ```gradlew clean build runTests``` or ```gradlew clean build test```
 
 ---
 

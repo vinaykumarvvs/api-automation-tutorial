@@ -25,3 +25,12 @@ task runTests(type: Test) {
     }
 }
 
+test {
+    useTestNG {
+        suites 'Tests.xml'
+    }
+    testLogging {
+        events 'passed', 'skipped', 'failed'
+    }
+}
+
