@@ -20,5 +20,8 @@ task runTests(type: Test) {
     useTestNG {
         useDefaultListeners = true
     }
+    testLogging {
+        events 'passed', 'skipped', 'failed'
+    }
 }
 

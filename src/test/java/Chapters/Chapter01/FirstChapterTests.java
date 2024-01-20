@@ -10,7 +10,7 @@ import static org.hamcrest.Matchers.notNullValue;
 
 public class FirstChapterTests {
 
-    private static final String BASE_URL = "http://petstore.swagger.io/v2";
+    private static final String BASE_URL = "https://petstore.swagger.io/v2";
 
     // In this test, we are going to test a GET API and validate the Response
     @Test
@@ -22,7 +22,7 @@ public class FirstChapterTests {
                 .then()
                 .statusCode(200) // It verify the actual response code with the given code
                 .body("[0].id", notNullValue()) // Checking whether value is Not_Null or not
-                .body("[0].category.name", notNullValue())
+                .body("[0].name", notNullValue())
                 .body("[0].status", equalTo("sold")); // Checking status is equal to "sold"
     }
 
@@ -35,7 +35,7 @@ public class FirstChapterTests {
                 .then()
                 .statusCode(200)
                 .body("[0].id", notNullValue())
-                .body("[0].category.name", notNullValue())
+                .body("[0].name", notNullValue())
                 .body("[0].status", equalTo("sold"));
     }
 
